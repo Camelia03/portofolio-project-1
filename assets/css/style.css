@@ -1,0 +1,42 @@
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #547670;
+}
+
+/* headings*/
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #3bc3a9;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*navigation links*/
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+
+#menu li {
+    display: flex;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
