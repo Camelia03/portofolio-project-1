@@ -1,33 +1,63 @@
-body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #547670;
+* {
+    box-sizing: border-box;
 }
 
-/* headings*/
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-weight: 300;
+    color: #547670;
+    background-color: rgb(219, 232, 231);
+}
+
+.section-content {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*headings*/
 
 h1,
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    font-weight: 500;
     color: #3bc3a9;
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
+    margin: 0;
 }
 
-/*navigation links*/
+
+/*navigation and logo*/
+
+.logo-image {
+    width: 60px;
+}
+
+nav {
+    background-color: aliceblue;
+    border-bottom: #547670;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
+    font-size: 24px;
+    margin: 0;
+    display: flex;
 }
 
-
 #menu li {
-    display: flex;
     list-style-type: none;
     margin-right: 40px;
 }
@@ -38,5 +68,65 @@ h1 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #547670;
+}
+
+/*hero section*/
+
+.hero-section .section-content {
+    display: flex;
+}
+
+.hero-content {
+    width: 50%;
+    padding-left: 24px;
+}
+
+.hero-image-wrapper img {
+    width: 60%;
+}
+
+.hero-image-wrapper {
+    text-align: center;
+    width: 50%;
+}
+
+/*benefits section*/
+
+.benefits-section {
+    background-color: aliceblue;
+    text-align: center;
+    margin-bottom: 14px;
+    margin-top: 14px;
+    padding: 14px;
+}
+
+.benefits-list {
+    list-style-type: none;
+    column-count: 3;
+}
+
+/*yoga section*/
+
+.yoga-section {
+    display: flex;
+    margin-top: 10%;
+    background-color: #ffff;
+    align-items: center;
+}
+
+.yoga-image-wrapper {
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.yoga-image-wrapper img {
+    width: 75%;
+}
+
+.yoga-content {
+    width: 50%;
+    padding-right: 50px;
+    max-width: 700px;
 }
