@@ -290,3 +290,53 @@ footer {
 #photos-section>img {
     width: 100%;
 }
+
+/* Form */
+
+.form-section {
+    background: url("/assets/images/newsletter-bg-2-3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form {
+    margin: 40px 0;
+    color: #F0FFFF;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 500px;
+    position: absolute;
+    left: 14px;
+    padding: 30px;
+}
+
+
+.text-input {
+    background: transparent;
+    color: #F0FFFF;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #F0FFFF;
+    border-radius: 5px;
+}
+
+.text-input:hover {
+    border-color: #0c92a4;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #0c92a4;
+    color: #F0FFFF;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #F0FFFF;
+    color: #0c92a4;
+}
