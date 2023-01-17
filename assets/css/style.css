@@ -39,7 +39,7 @@ h1 {
 /*navigation and logo*/
 
 .logo-image {
-    width: 50px;
+    width: 60px;
 }
 
 nav {
@@ -55,6 +55,11 @@ nav {
 header {
     position: sticky;
     top: 0px;
+    z-index: 1;
+}
+
+header .logo-image {
+    padding: 5px;
 }
 
 .logo-wrapper {
@@ -129,20 +134,21 @@ header {
 
 /* about yoga section*/
 
-.yoga-section {
+.yoga-section .section-content {
     display: flex;
     background-color: #ffff;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .yoga-image-wrapper {
     width: 50%;
-    padding: 10px;
+    padding: 10px 50px 10px 80px;
     text-align: center;
 }
 
 .yoga-image-wrapper img {
-    width: 75%;
+    width: 100%;
 }
 
 .yoga-content {
@@ -221,6 +227,8 @@ header {
 
 #schedule-section table {
     width: 100%;
+    display: block;
+    overflow-x: auto;
 }
 
 /* footer */
@@ -259,6 +267,10 @@ footer {
     font-family: "Dancing Script", sans-serif;
     font-size: 50px;
     color: #0c92a4;
+    display: flex;
+}
+
+.quote-section .section-content {
     display: flex;
 }
 
@@ -333,10 +345,46 @@ footer {
     font-size: 100%;
     background-color: #0c92a4;
     color: #F0FFFF;
+
     display: block;
+    max-width: 200px;
 }
 
 .join-button:hover {
     background-color: #F0FFFF;
     color: #0c92a4;
+}
+
+.signup-form>h2 {
+    color: #F0FFFF;
+}
+
+
+/* Media queries */
+
+/* For small screens sizes from 800px wide and down */
+@media screen and (max-width: 800px) {
+    #photos-section {
+        column-count: 2;
+    }
+
+    .benefits-list {
+        display: block;
+    }
+
+    .yoga-section .section-content {
+        display: block;
+    }
+
+    .yoga-content {
+        width: 100%;
+    }
+
+    .instructors {
+        display: block;
+    }
+
+    .instructor-wrapper {
+        width: 100%;
+    }
 }
