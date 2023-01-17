@@ -39,7 +39,7 @@ h1 {
 /*navigation and logo*/
 
 .logo-image {
-    width: 60px;
+    width: 50px;
 }
 
 nav {
@@ -50,6 +50,11 @@ nav {
     align-items: center;
     font-size: 35px;
     color: azure;
+}
+
+header {
+    position: sticky;
+    top: 0px;
 }
 
 .logo-wrapper {
@@ -77,7 +82,7 @@ nav {
     border-bottom: 1px solid #547670;
 }
 
-/*hero section*/
+/*banner section*/
 .banner-wrapper {
     display: block;
     text-align: center;
@@ -98,23 +103,12 @@ nav {
     font-family: "Kaushan Script", sans-serif;
 }
 
-.hero-section .section-content {
-    display: flex;
-}
+/*about us section*/
 
-.hero-content {
-    width: 50%;
+.about-us-content {
     padding-left: 24px;
 }
 
-.hero-image-wrapper img {
-    width: 60%;
-}
-
-.hero-image-wrapper {
-    text-align: center;
-    width: 50%;
-}
 
 /*benefits section*/
 
@@ -133,11 +127,10 @@ nav {
 }
 
 
-/*yoga section*/
+/* about yoga section*/
 
 .yoga-section {
     display: flex;
-    margin-top: 10%;
     background-color: #ffff;
     align-items: center;
 }
@@ -154,7 +147,7 @@ nav {
 
 .yoga-content {
     width: 50%;
-    padding-right: 50px;
+    padding-left: 50px;
     max-width: 700px;
 }
 
@@ -162,7 +155,7 @@ nav {
 
 .instructors img {
     width: 100%;
-    padding: 14px 0;
+    padding: 14px;
 }
 
 .instructor-wrapper:hover {
@@ -233,7 +226,17 @@ nav {
 /* footer */
 
 footer {
-    height: 150px;
+    background-color: #1c2e2b;
+    padding: 60px 0;
+
+}
+
+#footer-image {
+    background-image: url(/assets/images/newsletter-bg-2-3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    min-height: 500px;
 }
 
 .social-networks {
@@ -242,22 +245,48 @@ footer {
 
 .social-networks>li {
     display: inline;
+    padding: 0 28px;
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+    color: #F0FFFF;
+    font-size: 30px;
 }
 
-#photos {
+/*quotes section*/
+
+.quote-section {
+    font-family: "Dancing Script", sans-serif;
+    font-size: 50px;
+    color: #0c92a4;
+    display: flex;
+}
+
+.image-wrapper img {
+    width: 80%;
+}
+
+.image-wrapper {
+    width: 20%;
+    padding: 10px;
+    text-align: left;
+}
+
+.quote-content {
+    width: 80%;
+    padding-right: 10px;
+    text-align: right;
+}
+
+/*gallery page*/
+
+#photos-section {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 }
 
-#photos>img {
+#photos-section>img {
     width: 100%;
 }
