@@ -49,7 +49,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-size: 35px;
-    color: azure;
+    color: #F0FFFF;
+    font-weight: bold;
 }
 
 header {
@@ -68,7 +69,7 @@ header .logo-image {
 }
 
 #menu {
-    font-size: 24px;
+    font-size: 20px;
     margin: 0;
     display: flex;
 }
@@ -235,8 +236,6 @@ header .logo-image {
 
 footer {
     background-color: #1c2e2b;
-    padding: 60px 0;
-
 }
 
 #footer-image {
@@ -245,6 +244,12 @@ footer {
     background-position: bottom;
     background-repeat: no-repeat;
     min-height: 500px;
+}
+
+.contact-wrapper {
+    text-align: center;
+    display: inline;
+    padding: 0 28px;
 }
 
 .social-networks {
@@ -313,7 +318,7 @@ footer {
 }
 
 .signup-form {
-    margin: 40px 0;
+    margin: 20px 30%;
     color: #F0FFFF;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;
@@ -334,7 +339,7 @@ footer {
 }
 
 .text-input:hover {
-    border-color: #0c92a4;
+    border-color: #033941;
 }
 
 .join-button {
@@ -343,7 +348,7 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #0c92a4;
+    background-color: #033941;
     color: #F0FFFF;
 
     display: block;
@@ -352,7 +357,7 @@ footer {
 
 .join-button:hover {
     background-color: #F0FFFF;
-    color: #0c92a4;
+    color: #033941;
 }
 
 .signup-form>h2 {
