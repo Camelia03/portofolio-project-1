@@ -100,7 +100,7 @@ header .logo-image {
 }
 
 .yoga-banner-section {
-    background-image: url("/assets/images/wee-lee-HOSjS6qIGAs-unsplash.webp");
+    background-image: url("../images/wee-lee-HOSjS6qIGAs-unsplash.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -242,7 +242,7 @@ footer {
 }
 
 #footer-image {
-    background-image: url(/assets/images/newsletter-bg-2-3.webp);
+    background-image: url("../images/newsletter-bg-2-3.webp");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -303,7 +303,7 @@ footer {
 /* Form */
 
 .form-section {
-    background: url("/assets/images/newsletter-bg-2-3.webp");
+    background: url("../images/newsletter-bg-2-3.webp");
     background-size: cover;
     background-position: center;
     height: 900px;
