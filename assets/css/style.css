@@ -303,20 +303,24 @@ footer {
 /* Form */
 
 .form-section {
-    background: url("/assets/images/newsletter-bg-2-3.jpg");
+    background: url("/assets/images/newsletter-bg-2-3.webp");
     background-size: cover;
     background-position: center;
     height: 900px;
 }
 
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
 .signup-form {
-    margin: 20px 30%;
     color: #F0FFFF;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 500px;
-    position: absolute;
-    left: 14px;
     padding: 30px;
+    width: 80%;
 }
 
 
