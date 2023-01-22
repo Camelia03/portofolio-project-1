@@ -275,16 +275,8 @@ footer {
     font-family: "Dancing Script", sans-serif;
     font-size: 50px;
     color: #0b7f8e;
-    display: flex;
-}
-
-.quote-section .section-content {
-    display: flex;
-}
-
-.quote-content {
-    width: 100%;
     text-align: center;
+
 }
 
 /*gallery page*/
