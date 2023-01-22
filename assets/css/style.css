@@ -11,8 +11,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     font-weight: 300;
-    color: hsl(169, 17%, 35%);
-    background-color: rgb(219, 232, 231);
+    color: #4a6863;
+    background-color: #dbe8e7;
 }
 
 .section-content {
@@ -113,8 +113,8 @@ header .logo-image {
 
 /*about us section*/
 
-.about-us-content {
-    padding-left: 24px;
+.about-us-section {
+    padding: 14px;
 }
 
 
@@ -239,6 +239,7 @@ header .logo-image {
 footer {
     background-color: #1c2e2b;
     color: #F0FFFF;
+    padding-bottom: 14px;
 }
 
 #footer-image {
