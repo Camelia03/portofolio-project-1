@@ -11,7 +11,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     font-weight: 300;
-    color: #547670;
+    color: hsl(169, 17%, 35%);
     background-color: rgb(219, 232, 231);
 }
 
@@ -31,10 +31,13 @@ h2 {
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
     margin: 0;
 }
 
+h2 {
+    color: #07555f;
+}
 
 /*navigation and logo*/
 
@@ -48,7 +51,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 35px;
     color: #F0FFFF;
     font-weight: bold;
 }
@@ -98,7 +100,7 @@ header .logo-image {
 }
 
 .yoga-banner-section {
-    background-image: url("/assets/images/wee-lee-HOSjS6qIGAs-unsplash.jpg");
+    background-image: url("/assets/images/wee-lee-HOSjS6qIGAs-unsplash.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -236,10 +238,11 @@ header .logo-image {
 
 footer {
     background-color: #1c2e2b;
+    color: #F0FFFF;
 }
 
 #footer-image {
-    background-image: url(/assets/images/newsletter-bg-2-3.jpg);
+    background-image: url(/assets/images/newsletter-bg-2-3.webp);
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -271,7 +274,7 @@ footer {
 .quote-section {
     font-family: "Dancing Script", sans-serif;
     font-size: 50px;
-    color: #0c92a4;
+    color: #0b7f8e;
     display: flex;
 }
 
@@ -279,20 +282,9 @@ footer {
     display: flex;
 }
 
-.image-wrapper img {
-    width: 80%;
-}
-
-.image-wrapper {
-    width: 20%;
-    padding: 10px;
-    text-align: left;
-}
-
 .quote-content {
-    width: 80%;
-    padding-right: 10px;
-    text-align: right;
+    width: 100%;
+    text-align: center;
 }
 
 /*gallery page*/
@@ -367,7 +359,7 @@ footer {
 
 /* Media queries */
 
-/* For small screens sizes from 800px wide and down */
+/* For small screens sizes up to 800px wide */
 @media screen and (max-width: 800px) {
     #photos-section {
         column-count: 2;
@@ -390,6 +382,27 @@ footer {
     }
 
     .instructor-wrapper {
+        width: 100%;
+    }
+}
+
+/* For small screens sizes up to 500px wide */
+@media screen and (max-width: 500px) {
+    #menu {
+        font-size: 16px;
+    }
+
+    #menu li {
+        margin-right: 0;
+        padding: 0 10px;
+    }
+
+    .quote-section {
+        font-size: 40px;
+    }
+
+    .yoga-image-wrapper {
+        padding: 20px;
         width: 100%;
     }
 }
