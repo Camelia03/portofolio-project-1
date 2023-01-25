@@ -132,7 +132,7 @@ Removing the starting / fixed the problem.
   * No further errors were detected.
 
 * CSS
-  * The CSS Validator is currently offline.
+  * No errors were found when passing through the official validator (Jigsaw).
 
 
 * Accesibility
